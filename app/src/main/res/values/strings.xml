@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">GastroPedia</string>
+    <string name="about_me">About me</string>
+    <string name="description_text">description text</string>
+    <string name="category">Category</string>
+    <string name="list_title">Gastronomy</string>
+    <string name="banner_title">Welcome to Gastro Pedia!</string>
+    <string name="banner_content">You can explore all the best of Gastronomy in this world!</string>
+    <string name="banner_info">Click each item in the list to see the details!</string>
+    <string name="nationality">Nationality:</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="share_this_gastronomy">Share this gastronomy</string>
+    <string name="history">History</string>
+    <string name="project_owner_name">Muhamad Afif Fadillah</string>
+    <string name="email">5dillah01@gmail.com | muhamad.fadillah@student.ac.id</string>
+    <string name="role">Junior Software Developer</string>
+    <string name="gastronomy_picture">Gastronomy Picture</string>
+    <string name="close_banner">close banner</string>
+
+    <string-array name="gastronomy_name">
+        <item>Sushi</item>
+        <item>Pizza Margherita</item>
+        <item>Paella</item>
+        <item>Beef Bourguignon</item>
+        <item>Pad Thai</item>
+        <item>Tacos al Pastor</item>
+        <item>Pho</item>
+        <item>Moussaka</item>
+        <item>Biryani</item>
+        <item>Fish and Chips</item>
+    </string-array>
+
+    <string-array name="gastronomy_description">
+        <item>A traditional Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits.</item>
+        <item>A classic Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt, and extra-virgin olive oil. Simple yet delicious, it\'s the gold standard of pizzas.</item>
+        <item>A Spanish rice dish that originated in the fields of Valencia on the eastern coast of Spain. It\'s made with round grain rice, bajoqueta and tavella (varieties of green beans), rabbit, chicken, sometimes duck, garrofó (a variety of lima beans), and optionally snails.</item>
+        <item>A classic French dish of beef braised in red wine, beef broth, and seasoned vegetables including pearl onions and mushrooms. This dish is a staple of French cuisine.</item>
+        <item>A stir-fried rice noodle dish commonly served as a street food in Thailand. It is made with soaked dried rice noodles, which are stir-fried with eggs and chopped firm tofu, flavored with tamarind pulp, fish sauce, dried shrimp, garlic, red chili pepper and palm sugar.</item>
+        <item>A dish developed in central Mexico, likely in the 1920s and 1930s. It consists of thin slices of seasoned pork, layered on a vertical rotisserie cooked and flame-broiled as it spins.</item>
+        <item>A Vietnamese soup consisting of broth, rice noodles, herbs, and meat – usually beef or chicken. Pho is a popular street food in Vietnam and the specialty of a number of restaurant chains around the world.</item>
+        <item>An eggplant or potato-based dish, often including ground meat, in the cuisines of the Balkans, the Middle East, and the South Caucasus. The most famous version of the dish today appeared in the 1920s with the arrival of Greek refugees from Turkey.</item>
+        <item>A mixed rice dish originating among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and usually some type of meat (chicken, beef, goat, lamb, prawn, or fish), or in some cases without any meat, and sometimes, in addition, eggs and potatoes.</item>
+        <item>A hot dish consisting of fried fish in crispy batter, served with chips (thick-cut potato fries). It\'s a quintessential part of British cuisine and is often considered Britain\'s national dish.</item>
+    </string-array>
+
+    <string-array name="gastronomy_photo">
+        <item>https://upload.wikimedia.org/wikipedia/commons/6/60/Sushi_platter.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/e/ed/01_Paella_Valenciana_original.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Beef_bourguignon_NYT.jpg/1200px-Beef_bourguignon_NYT.jpg?20151115192826</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/5/53/Pho-Beef-Noodles-2008.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/a/a8/MussakasMeMelitsanesKePatates01.JPG</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/7/7c/Hyderabadi_Chicken_Biryani.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/f/ff/Fish_and_chips_blackpool.jpg</item>
+    </string-array>
+
+    <string-array name="gastronomy_category">
+        <item>Japanese</item>
+        <item>Italian</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Thai</item>
+        <item>Mexican</item>
+        <item>Vietnamese</item>
+        <item>Greek</item>
+        <item>Indian</item>
+        <item>British</item>
+    </string-array>
+
+    <string-array name="gastronomy_ingredients">
+        <item>- Rice\n- Seaweed\n- Fish\n- Soy Sauce\n- Wasabi</item>
+        <item>- Flour\n- Tomatoes\n- Mozzarella Cheese\n- Basil\n- Olive Oil</item>
+        <item>- Rice\n- Chicken\n- Rabbit\n- Green Beans\n- Saffron</item>
+        <item>- Beef\n- Red Wine\n- Mushrooms\n- Onions\n- Garlic</item>
+        <item>- Rice Noodles\n- Eggs\n- Tofu\n- Tamarind Sauce\n- Peanuts</item>
+        <item>- Pork\n- Pineapple\n- Onion\n- Cilantro\n- Tortilla</item>
+        <item>- Beef\n- Rice Noodles\n- Broth\n- Bean Sprouts\n- Basil</item>
+        <item>- Eggplant\n- Potatoes\n- Ground Beef\n- Tomatoes\n- Cheese</item>
+        <item>- Rice\n- Chicken\n- Yogurt\n- Spices\n- Saffron\n- Cilantro</item>
+        <item>- Fish\n- Potatoes\n- Flour\n- Vinegar\n- Salt</item>
+    </string-array>
+
+
+    <string-array name="gastronomy_history">
+        <item>Sushi originated in Japan and has evolved over centuries. The earliest form of sushi was a method of preserving fish by fermenting it with rice. This form of sushi, known as narezushi, dates back to the 8th century. However, the sushi we know today, which includes vinegared rice and various toppings such as raw fish, began to develop in the Edo period (1603–1868). The creation of nigiri sushi, a type of sushi with a small ball of vinegared rice topped with a slice of fish, is attributed to Hanaya Yohei, a sushi chef in Tokyo, in the early 19th century. Sushi has since become a global phenomenon, known for its fresh and flavorful ingredients.</item>
+        <item>Pizza Margherita has its roots in Naples, Italy, and is named after Queen Margherita of Savoy. The story goes that in 1889, Queen Margherita visited Naples and was served a pizza by chef Raffaele Esposito, who wanted to present a dish reflecting the colors of the Italian flag—red (tomato), white (mozzarella), and green (basil). The pizza was a hit with the queen, and Esposito named it Pizza Margherita in her honor. This classic pizza represents the simplicity and quality of Italian ingredients and has become a staple in Italian cuisine and worldwide.</item>
+        <item>Paella is a traditional Spanish dish that originated in Valencia on the eastern coast of Spain. The dish\'s name comes from the Valencian word \'paella,\' which refers to the pan used to cook it. Originally, paella was a humble dish made by farm laborers using locally available ingredients such as rabbit, chicken, green beans, and saffron. Over time, the dish evolved, and seafood variations emerged along Spain\'s coast. Today, paella is celebrated for its diverse variations, including seafood paella, mixed paella with meat and seafood, and the traditional Valenciana version.</item>
+        <item>Beef Bourguignon, also known as Boeuf Bourguignon, is a classic French dish originating from the Burgundy region. The dish is a hearty beef stew braised in red wine, typically Burgundy wine, with vegetables such as onions, carrots, and mushrooms. Its origins date back to medieval times when it was a common practice to cook meat in wine to tenderize it. The dish gained prominence in the 20th century through the work of famous French chefs like Julia Child, who popularized it outside of France. Beef Bourguignon is now considered a quintessential example of French comfort food.</item>
+        <item>Pad Thai is a stir-fried noodle dish from Thailand that became popular in the 20th century. The dish\'s roots are believed to be influenced by Chinese cuisine, particularly from the stir-fried noodle dishes brought to Thailand by Chinese immigrants. However, Pad Thai as we know it today was promoted by the Thai government during World War II as a national dish to boost rice consumption and promote Thai identity. The dish typically includes rice noodles stir-fried with eggs, tofu or shrimp, peanuts, and bean sprouts, flavored with tamarind, fish sauce, and chili. Pad Thai is now a global symbol of Thai cuisine.</item>
+        <item>Tacos al Pastor are a Mexican street food with roots in Lebanese cuisine. The dish was brought to Mexico by Lebanese immigrants in the early 20th century. They adapted their traditional shawarma, which is cooked on a vertical rotisserie, to include local Mexican ingredients and flavors. The Mexican version, known as Tacos al Pastor, features marinated pork cooked on a spit, then sliced thin and served in a tortilla with pineapple, cilantro, and onions. The dish has become a beloved staple of Mexican cuisine and is enjoyed worldwide.</item>
+        <item>Pho is a traditional Vietnamese soup consisting of broth, rice noodles, herbs, and meat, typically beef or chicken. Its origins are debated, but it is widely believed to have developed in Northern Vietnam in the early 20th century. The dish reflects the influence of French colonialism on Vietnamese cuisine, particularly in the use of beef. Pho was popularized after the Vietnam War and has become a significant part of Vietnamese cultural identity. The rich, aromatic broth and fresh herbs make pho a comforting and beloved dish in Vietnam and around the world.</item>
+        <item>Moussaka is a traditional dish from the Eastern Mediterranean region, particularly Greece. The dish consists of layers of eggplant, ground meat, and béchamel sauce. While variations of moussaka exist in the Balkans and the Middle East, the Greek version as we know it today was popularized in the 20th century by Greek chef Nikolaos Tselementes. The dish reflects a blend of influences, including Ottoman and Middle Eastern flavors. Moussaka is considered a classic Greek comfort food and is often served as a hearty meal or festive dish.</item>
+        <item>Biryani is a mixed rice dish with origins in the Indian subcontinent. The dish\'s roots can be traced back to Persian cuisine, where it was adapted and evolved over time with the introduction of Indian spices and cooking techniques. Biryani was brought to India by the Mughal Empire, and it became a popular dish in various regional cuisines, including Hyderabadi, Lucknowi, and Kolkata biryanis. The dish typically includes rice, meat (such as chicken, beef, or lamb), and a blend of spices, including saffron. Biryani is celebrated for its complex flavors and aromatic spices.</item>
+        <item>Fish and Chips is a classic British dish consisting of fried fish and thick-cut potato fries. The dish\'s origins can be traced back to the 19th century in the United Kingdom. It is believed that fried fish was introduced to Britain by Jewish immigrants from Eastern Europe, while the concept of fried potatoes came from the French. The combination of the two became a popular and iconic dish in Britain. Fish and Chips became a symbol of British cuisine and culture, especially during World War II, when it was one of the few foods available to the general public.</item>
+    </string-array>
+
+
+</resources>

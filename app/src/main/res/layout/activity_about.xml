@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="90dp"
+        app:cardCornerRadius="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/img_container"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:contentDescription="@string/project_owner_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/muhamad_afif_fadillah"
+            android:layout_height="match_parent" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/img_container"
+        app:layout_constraintEnd_toEndOf="@id/img_container"
+        app:layout_constraintTop_toBottomOf="@id/img_container"
+        android:layout_marginTop="16dp"
+        android:text="@string/project_owner_name"
+        android:textColor="@color/md_theme_primary"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:id="@+id/tv_name"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
+        app:layout_constraintStart_toStartOf="@id/tv_name"
+        app:layout_constraintEnd_toEndOf="@id/tv_name"
+        android:text="@string/email"
+        android:textColor="@color/md_theme_primary"
+        android:id="@+id/tv_email"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tv_email"
+        app:layout_constraintEnd_toEndOf="@id/tv_email"
+        app:layout_constraintTop_toBottomOf="@id/tv_email"
+        android:layout_marginTop="12dp"
+        android:text="@string/role"
+        android:textColor="@color/md_theme_primary"
+        android:textSize="18sp"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

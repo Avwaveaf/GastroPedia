@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailGastroActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_gastro"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:contentDescription="@string/share_this_gastronomy"
+            android:src="@drawable/baseline_share_24"
+            app:layout_constraintBottom_toBottomOf="@id/img_gastro"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_gastro_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="22dp"
+            android:textColor="@color/md_theme_primary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_gastro"
+            tools:text="title" />
+
+        <TextView
+            android:id="@+id/tv_gastro_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="8dp"
+            android:textColor="@color/md_theme_primary"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@id/tv_gastro_title"
+            app:layout_constraintStart_toStartOf="@id/tv_gastro_title"
+            app:layout_constraintTop_toBottomOf="@id/tv_gastro_title"
+            tools:text="description" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_ingredient_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginHorizontal="12dp"
+
+
+            android:backgroundTint="@color/md_theme_tertiaryContainer"
+            app:cardCornerRadius="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/card_city_detail"
+            app:layout_constraintTop_toTopOf="@id/card_city_detail">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp">
+
+                <ImageView
+                    android:id="@+id/banner_ingredient_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_recommend_24"
+                    app:layout_constraintStart_toStartOf="parent"
+
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/banner_ingredient_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/ingredients"
+                    android:textColor="@color/md_theme_tertiary"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@id/banner_ingredient_icon"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/banner_ingredient_icon"
+                    app:layout_constraintTop_toTopOf="@id/banner_ingredient_icon" />
+
+                <TextView
+                    android:id="@+id/banner_title_ingredient_entry"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/md_theme_tertiary"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@id/banner_ingredient_title"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/banner_ingredient_title"
+                    tools:text="Indonesia" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_city_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/md_theme_tertiaryContainer"
+            app:cardCornerRadius="12dp"
+            app:layout_constraintEnd_toStartOf="@id/card_ingredient_detail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_gastro_description">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp">
+
+                <ImageView
+                    android:id="@+id/banner_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_location_city_24"
+                    app:layout_constraintStart_toStartOf="parent"
+
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/banner_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/nationality"
+                    android:textColor="@color/md_theme_tertiary"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@id/banner_icon"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/banner_icon"
+                    app:layout_constraintTop_toTopOf="@id/banner_icon" />
+
+                <TextView
+                    android:id="@+id/banner_title_entry"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/md_theme_tertiary"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@id/banner_title"
+                    app:layout_constraintStart_toStartOf="@id/banner_title"
+                    app:layout_constraintTop_toBottomOf="@id/banner_title"
+                    tools:text="Indonesia" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/tv_gastro_history_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="22dp"
+            android:text="@string/history"
+            android:textColor="@color/md_theme_primary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card_ingredient_detail" />
+
+        <TextView
+            android:id="@+id/tv_gastro_history_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/md_theme_primary"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_gastro_history_title"
+            tools:text="history series" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

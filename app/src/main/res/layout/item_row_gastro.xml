@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="6dp"
+    android:backgroundTint="@color/md_theme_surfaceContainer"
+    card_view:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/gastronomy_picture"
+            android:scaleType="centerCrop"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:textColor="@color/md_theme_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
+            card_view:layout_constraintTop_toTopOf="@+id/img_item_photo"
+            tools:text="Dummy Gastro" />
+
+        <TextView
+            android:id="@+id/tv_item_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:textColor="@color/md_theme_primary"
+            android:textStyle="italic"
+            card_view:layout_constraintEnd_toEndOf="@+id/tv_item_name"
+            card_view:layout_constraintStart_toStartOf="@+id/tv_item_name"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_item_name"
+            tools:text="@string/category" />
+
+        <TextView
+            android:id="@+id/tv_item_description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:textColor="@color/md_theme_primary"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="@+id/tv_item_name"
+            card_view:layout_constraintStart_toStartOf="@+id/tv_item_name"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_item_category"
+            tools:text="@string/description_text" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
