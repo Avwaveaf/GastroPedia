@@ -58,3 +58,10 @@ The *Gastropedia* project is a mobile application designed to showcase a collect
 7. Enable functionality to **share a screenshot** of the detail screen after the FAB is clicked.
 8. Set up the user interface to ensure easy navigation and access to food information.
 9. Test the application to ensure smooth functionality and adherence to Material Design guidelines.
+   
+## Try the App
+
+If you want to try the **GastroPedia** app, simply download the latest release from the [Releases Page](https://github.com/Avwaveaf/GastroPedia/releases/tag/v1.0). 
+
+After downloading the APK, install it on your Android device, and you're ready to explore Gastropedia!
+
